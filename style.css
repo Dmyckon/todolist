@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+}
+#dark1 {
+    display: none;
+}
+#back1 {
+    background-image: url(./bg-mobile-light.jpg);
+    background-repeat: no-repeat ;
+    padding: 20px;
+}
+#header {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+#light1, #dark1, #light2, #dark2 {
+    height: 6vw;
+    margin-top: 30px;
+}
+#content {
+    margin-left: 1%;
+    margin-top: 8%;
+    display: flex;
+}
+#enter1 {
+    width: 85vw;
+    height: 6vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px;
+}
+#back2 {
+    display: none;
+    background-image: url(./bg-mobile-dark.jpg);
+    background-repeat: no-repeat ;
+    padding: 20px;
+}
+#enter2 {
+    background-color: rgb(62, 57, 57);
+    width: 85vw;
+    height: 6vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+#check1, #check2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 7vh;
+}
+#check2 {
+    background-color: rgb(62, 57, 57);
+    color: antiquewhite;
+}
+#storage1 {
+    width: 85vw;
+    border-radius: 15px;
+    background-color: hsl(236, 33%, 92%);
+    height: 30vh;
+    padding: 10px;
+}
+#storage2 {
+    width: 85vw;
+    border-radius: 15px;
+    background-color: rgb(62, 57, 57);
+    color: antiquewhite;
+    height: 30vh;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 1150px) {
+    body {
+        margin: 0px;
+    }
+    #dark1 {
+        display: none;
+    }
+    #back1 {
+        background-image: url(./bg-desktop-light.jpg);
+        background-repeat: no-repeat ;
+        padding: 20px;
+    }
+    #header {
+        color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25%;
+        margin-right: 27%;
+    }
+    #light1, #dark1, #light2, #dark2 {
+        height: 2vw;
+        margin-top: 30px;
+    }
+    #content {
+        margin-left: 1%;
+        margin-top: 8%;
+        display: flex;
+        padding-bottom: 20px;
+    }
+    #enter1 {
+        width: 40vw;
+        height: 6vh;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-left: 25%;
+    }
+    #back2 {
+        display: none;
+        background-image: url(./bg-desktop-dark.jpg);
+        background-repeat: no-repeat ;
+        padding: 20px;
+    }
+    #enter2 {
+        background-color: rgb(62, 57, 57);
+        width: 40vw;
+        height: 6vh;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        color: aliceblue;
+        margin-left: 25%;
+    }
+    #check1, #check2 {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #check2 {
+        background-color: rgb(62, 57, 57);
+        color: antiquewhite;
+    }
+    #storage1 {
+        width: 43vw;
+        border-radius: 15px;
+        background-color: hsl(236, 33%, 92%);
+        margin-left: 26%;
+    }
+    #storage2 {
+        width: 43vw;
+        border-radius: 15px;
+        background-color: rgb(62, 57, 57);
+        margin-left: 26%;
+        color: antiquewhite;
+    }
+}

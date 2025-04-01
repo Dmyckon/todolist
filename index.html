@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+   <div id="back1">
+       <div id="header">
+           <h1>T O D O</h1>
+           <img src="./icon-moon.svg" id="light1" onclick="lightTheme()">
+           <img src="./icon-sun.svg" id="dark1" onclick="darkTheme()">
+       </div>
+       <div id="content">
+           <input id="enter1" placeholder="Create a new todo...">
+           <button id="check1" onclick="checkMark()">Create</button>
+       </div>
+       <div id="storage1"></div>
+   </div>
+
+   <div id="back2">
+       <div id="header">
+           <h1>T O D O</h1>
+           <img src="./icon-moon.svg" id="light2" onclick="lightTheme()">
+           <img src="./icon-sun.svg" id="dark2" onclick="darkTheme()">
+       </div>
+       <div id="content">
+           <input id="enter2" placeholder="Create a new todo...">
+           <button id="check2" onclick="checkMark()">Create</button>
+       </div>
+       <div id="storage2"></div>
+   </div>
+
+
+   <script src="./script.js"></script>
+
+</body>
+</html>
