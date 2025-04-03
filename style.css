@@ -58,17 +58,33 @@ body {
     width: 85vw;
     border-radius: 15px;
     background-color: hsl(236, 33%, 92%);
-    height: 30vh;
+    /* height: 30vh; */
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
 }
 #storage2 {
     width: 85vw;
     border-radius: 15px;
     background-color: rgb(62, 57, 57);
     color: antiquewhite;
-    height: 30vh;
+    /* height: 30vh; */
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
 }
+#mark1, #mark2, #cancel1, #cancel2 {
+    width: 18px;
+}
+#mark1, #mark2 {
+    background-color: blue;
+}
+#cancel2 {
+    background-color: aliceblue;
+}
+
 
 @media only screen and (min-width: 1150px) {
     body {
